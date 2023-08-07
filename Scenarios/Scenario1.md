@@ -58,4 +58,4 @@ I was searching online for a good methodology on how to start looking into an al
 ```
 | metadata type=sourcetypes index="botsv1" 
 ```
-![Metadata]/screenshots/metadata.png
+![metadata]../screenshots/metadata.png
