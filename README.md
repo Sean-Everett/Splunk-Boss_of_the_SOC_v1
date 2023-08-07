@@ -7,4 +7,3 @@ I just want to give credit to those at Splunk who put in the effort to make the 
 [Scenario1](/Scenarios/Scenario1.md)
 
 [Scenario2](/SCenarios/Scenario2.md)
-
