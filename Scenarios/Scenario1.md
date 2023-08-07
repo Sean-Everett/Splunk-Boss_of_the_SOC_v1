@@ -49,3 +49,13 @@ Mission document: https://botscontent.netlify.app/v1/mission_document.html
 
 119. How many unique passwords were attempted in the brute force attempt?
 
+
+
+
+# Starting to Investigate
+
+I was searching online for a good methodology on how to start looking into an alert and saw several posts on a simple query that lets you familiarize yourself with the dataset.
+```
+| metadata type=sourcetypes index="botsv1" 
+```
+![Metadata]/screenshots/metadata.png
