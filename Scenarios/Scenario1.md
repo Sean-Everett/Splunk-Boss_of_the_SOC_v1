@@ -48,3 +48,4 @@ Mission document: https://botscontent.netlify.app/v1/mission_document.html
 118. How many seconds elapsed between the time the brute force password scan identified the correct password and the compromised login?
 
 119. How many unique passwords were attempted in the brute force attempt?
+
