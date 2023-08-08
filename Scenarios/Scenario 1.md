@@ -104,7 +104,14 @@ I shouldn't say we cannot find the file that defaced the website, but before the
 
 
 ### 107
-
+Knowing that you have to POST form data to a web server, we can craft a query to see what IP's have been hitting the server.
+```
+index="botsv1" sourcetype="stream:http" http_method="POST" dest_ip="192.168.250.70" form_data=*username*passwd*
+| stats count by src_ip
+```
+<p align="center">
+    <img src="/Scenarios/Screenshots/s1_bruteforce_ip.png">
+</p>
 
 
 ### 108
