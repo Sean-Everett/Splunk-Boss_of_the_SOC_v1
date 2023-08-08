@@ -1,4 +1,4 @@
-# Scenario 1 - Website Defacement
+# Scenario 1 - Web Site Defacement
 
 Below is the scenario verbatum from Splunk's site:
 
@@ -63,3 +63,10 @@ I was searching online for a good methodology on how to start looking into an al
 
 Now we can get an idea of what sourcetypes we are working with, along with how many logs are in each.
 
+
+
+### 101.
+I started by using the index="botvs1" and searching for imreallynotbatman.com to get an idea of traffic ad any interesting fields data that stands out. Right of the bat, I see src_ip has three IP's with 40.80.148.42 showing 47,649 hits.
+<p align="center">
+    <img src="/Scenarios/Screenshots/s1_src_ip.png">
+</p>
