@@ -170,3 +170,35 @@ We can see from the count that "batman" is the only password used twice hinting 
 
 
 ### 117
+
+```
+| rex field=form_data "passwd=(?<userpassword>\w+)"
+| stats count by userpassword
+```
+<p align="center">
+    <img src="/Scenarios/Screenshots/s1_pwlength.png">
+</p>
+
+
+### 118
+Working off of the query from 117, lets change out the last portion to utilize search and transaction. This will only look at the times batman is used and check the time it took between uses. Round to two decimal places.
+```
+| rex field=form_data "passwd=(?<userpassword>\w+)"
+| search userpassword=batman
+| transaction userpassword
+| table duration
+```
+<p align="center">
+    <img src="/Scenarios/Screenshots/s1_pwtime.png">
+</p>
+
+
+### 119
+
+```
+| rex field=form_data "passwd=(?<userpassword>\w+)"
+| stats count by userpassword
+```
+<p align="center">
+    <img src="/Scenarios/Screenshots/s1_uniquepw.png">
+</p>
