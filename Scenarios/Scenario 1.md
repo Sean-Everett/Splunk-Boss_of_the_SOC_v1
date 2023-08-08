@@ -78,7 +78,7 @@ Right of the bat, I see src_ip has three IP's with 40.80.148.42 showing 47,649 h
 
 
 ### 2
-To answer 102, I continued to use the last query and could see from the output that src_header has some interesting data. Clicking on src_header, I am able to figure out that Po1s0n1vy used Acunetix.
+To answer 2, I continued to use the last query and could see from the output that src_header has some interesting data. Clicking on src_header, I am able to figure out that Po1s0n1vy used Acunetix.
 <p align="center">
     <img src="/Scenarios/Screenshots/s1_acunetix.png">
 </p>
@@ -86,12 +86,19 @@ To answer 102, I continued to use the last query and could see from the output t
 
 
 ### 3
-103 took me a second. Personally in my career, I have helped a web team and only have seen NGINX and WordPress. After a quick Google of common CMS tools, I saw Joomla. As you would have it, Joomla shows up on the src_header option from the last question. 
+3 took me a second. Personally in my career, I have helped a web team and only have seen NGINX and WordPress. After a quick Google of common CMS tools, I saw Joomla. As you would have it, Joomla shows up on the src_header option from the last question. 
 
 
 
 ### 4
-file
+Looking at the Suricata logs with the source IP as the web server, I was poking through the interesting fields and came across http.http_content_type. This showed one image. 
+<p align="center">
+    <img src="/Scenarios/Screenshots/s1_jpeg.png">
+</p>
+I then expanded the raw text option and found the jpeg file name. This data also helps point us to the next question. It pays to sometimes read a ahead so you have an idea of the next few questions =P
+<p align="center">
+    <img src="/Scenarios/Screenshots/s1_batmanjpeg.png">
+</p>
 
 
 
