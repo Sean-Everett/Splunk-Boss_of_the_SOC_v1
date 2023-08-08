@@ -157,6 +157,15 @@ You can disregard reverse if you want to just click on time's filter option.
 
 
 ### 116
+This one wasn't hard but I need more experience using rex expressions. We can continue working off the query from 107 and 112.
+```
+| rex field=form_data "passwd=(?<userpassword>\w+)"
+| stats count by userpassword
+```
+We can see from the count that "batman" is the only password used twice hinting that it is the correct password.
+<p align="center">
+    <img src="/Scenarios/Screenshots/s1_correctpw.png">
+</p>
 
 
 
