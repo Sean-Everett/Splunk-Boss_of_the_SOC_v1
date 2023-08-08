@@ -114,6 +114,7 @@ index="botsv1" sourcetype="stream:http" http_method="POST" dest_ip="192.168.250.
 </p>
 
 
+
 ### 108
 
 
@@ -131,6 +132,15 @@ index="botsv1" sourcetype="stream:http" http_method="POST" dest_ip="192.168.250.
 
 
 ### 112
+Take the query from 107 and remove the stats option and add:
+```
+| table _time form_data
+| reverse
+```
+You can disregard reverse if you want to just click on time's filter option.
+<p align="center">
+    <img src="/Scenarios/Screenshots/s1_firstpw.png">
+</p>
 
 
 
