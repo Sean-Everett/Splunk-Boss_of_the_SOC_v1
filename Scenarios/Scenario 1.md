@@ -151,8 +151,19 @@ You can disregard reverse if you want to just click on time's filter option.
 
 
 ### 13
-coldplay
-
+Searching around for Coldplay songs that had six letters and then looking at the list of passwords used. There are 214 passwords that are six letters long. We can use a search and check against a list from whatever source you found the list of songs. I did not use "Fix You" because of the space.
+```
+| eval pwlen=len(userpassword)
+| search pwlen=6
+| where userpassword  in ("clocks", "oceans", "sparks", "shiver", "yellow")
+| table userpassword
+```
+<p align="center">
+    <img src="/Scenarios/Screenshots/s1_coldplay.png">
+</p>
+<p align="center">
+    <img src="/Scenarios/Screenshots/s1_yellow.png">
+</p>
 
 
 ### 14
