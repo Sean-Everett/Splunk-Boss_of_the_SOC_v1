@@ -82,3 +82,64 @@ To answer 102, I continued to use the last query and could see from the output t
 <p align="center">
     <img src="/Scenarios/Screenshots/s1_acunetix.png">
 </p>
+
+
+
+### 103
+103 took me a second. Personally in my career, I have helped a web team and only have seen NGINX and WordPress. After a quick Google of common CMS tools, I saw Joomla. As you would have it, Joomla shows up on the src_header option from the last question. 
+
+
+
+### 104
+
+
+
+### 105
+
+
+
+### 106
+
+
+
+### 107
+
+
+
+### 108
+
+
+
+### 109
+
+
+
+### 110
+
+
+
+### 111
+
+
+
+### 112
+
+
+
+### 113
+
+
+
+### 114
+
+
+
+### 115
+
+
+
+### 116
+
+
+
+### 117
