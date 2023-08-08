@@ -133,7 +133,10 @@ For this one, I just added .exe to the search field and only had two hits. I did
 
 
 ### 9
-
+I was having no luck just looking in fields and raw data. I switched between sysmon logs and suricata. Just searching the index for the file name and piping it to stats value(md5) gave me what I needed.Also noticed that when looking up the 23.22.63.114 IP on threatminer.org that is had three md5 hashes. The middle one being the md5 hash that sysmon logs showed.
+<p align="center">
+    <img src="/Scenarios/Screenshots/s1_md5hash.png">
+</p>
 
 
 
