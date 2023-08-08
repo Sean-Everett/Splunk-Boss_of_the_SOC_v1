@@ -8,6 +8,6 @@ I just want to give credit to those at Splunk involved in making the Boss of the
     <img src="/Scenarios/Screenshots/bots_logo.png">
 </p>
 
-[Scenario1](/Scenarios/Scenario 1.md)
+[Scenario 1](/Scenarios/Scenario 1.md)
 
-[Scenario2](/Scenarios/Scenario 2.md)
+[Scenario 2](/Scenarios/Scenario 2.md)
