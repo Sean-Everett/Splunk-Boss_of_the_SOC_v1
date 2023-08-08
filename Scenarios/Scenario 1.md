@@ -194,10 +194,11 @@ Working off of the query from 117, lets change out the last portion to utilize s
 
 
 ### 119
-
+Still using the rex expression, we can use stats to count by unique (or distinc count) passwords.
+You can see that there are 413 total but remember one of the passwords was used twice once it was figured out. 
 ```
 | rex field=form_data "passwd=(?<userpassword>\w+)"
-| stats count by userpassword
+| stats count(userpassword)
 ```
 <p align="center">
     <img src="/Scenarios/Screenshots/s1_uniquepw.png">
