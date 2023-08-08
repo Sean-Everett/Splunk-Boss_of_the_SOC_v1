@@ -169,10 +169,12 @@ We can see from the count that "batman" is the only password used twice hinting 
 
 
 ### 15
-
+This one was a bit tricky for me. I had to do a lot of searching for way to average as well as figure out the syntax.
 ```
 | rex field=form_data "passwd=(?<userpassword>\w+)"
-| stats count by userpassword
+| eval pwlen=len(userpassword)
+| stats avg(pwlen) AS avglen
+| eval avglen=round(avglen,0)
 ```
 <p align="center">
     <img src="/Scenarios/Screenshots/s1_pwlength.png">
