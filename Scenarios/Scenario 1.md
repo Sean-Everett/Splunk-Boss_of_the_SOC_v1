@@ -91,15 +91,17 @@ To answer 102, I continued to use the last query and could see from the output t
 
 
 ### 4
-I shouldn't say we cannot find the file that defaced the website, but before the can do that, Po1s0n1vy has to have access to the web server. We will have to come back to this one shortly.
+file
 
 
 
 ### 5
+dns
 
 
 
 ### 6
+domain ip
 
 
 
@@ -116,18 +118,22 @@ index="botsv1" sourcetype="stream:http" http_method="POST" dest_ip="192.168.250.
 
 
 ### 8
+exe
 
 
 
 ### 9
+md5
 
 
 
 ### 10
+ttp
 
 
 
 ### 11
+hex code
 
 
 
@@ -145,18 +151,11 @@ You can disregard reverse if you want to just click on time's filter option.
 
 
 ### 13
+coldplay
 
 
 
 ### 14
-
-
-
-### 15
-
-
-
-### 16
 This one wasn't hard but I need more experience using rex expressions. We can continue working off the query from 7 and 12.
 ```
 | rex field=form_data "passwd=(?<userpassword>\w+)"
@@ -169,7 +168,7 @@ We can see from the count that "batman" is the only password used twice hinting 
 
 
 
-### 17
+### 15
 
 ```
 | rex field=form_data "passwd=(?<userpassword>\w+)"
@@ -180,7 +179,8 @@ We can see from the count that "batman" is the only password used twice hinting 
 </p>
 
 
-### 18
+
+### 16
 Working off of the query from 17, lets change out the last portion to utilize search and transaction. This will only look at the times batman is used and check the time it took between uses. Round to two decimal places.
 ```
 | rex field=form_data "passwd=(?<userpassword>\w+)"
@@ -193,7 +193,8 @@ Working off of the query from 17, lets change out the last portion to utilize se
 </p>
 
 
-### 19
+
+### 17
 Still using the rex expression, we can use stats to count by unique (or distinc count) passwords.
 You can see that there are 413 total but remember one of the passwords was used twice once it was figured out. 
 ```
