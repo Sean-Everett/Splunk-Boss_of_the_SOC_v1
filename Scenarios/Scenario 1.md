@@ -103,12 +103,12 @@ I then expanded the raw text option and found the jpeg file name. This data also
 
 
 ### 5
-dns
+From number 4's image of the jpeg, we can see the image came from prankglassinebracket.jumpingcrab.com. NOt sure if it's an easter egg or not but the port is 1337 or LEET. 
 
 
 
 ### 6
-domain ip
+Number 4 also shows the IP as the dest_IP: 23.22.63.114
 
 
 
