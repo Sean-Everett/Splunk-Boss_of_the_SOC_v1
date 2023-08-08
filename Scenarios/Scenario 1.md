@@ -125,7 +125,10 @@ index="botsv1" sourcetype="stream:http" http_method="POST" dest_ip="192.168.250.
 
 
 ### 8
-exe
+For this one, I just added .exe to the search field and only had two hits. I did not know what shtml was so after looking it up, I could rule it out; giving me 3791.exe
+<p align="center">
+    <img src="/Scenarios/Screenshots/s1_exe.png">
+</p>
 
 
 
