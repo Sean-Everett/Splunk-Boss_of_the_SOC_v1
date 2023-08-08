@@ -14,7 +14,9 @@ Alices journal: https://botscontent.netlify.app/v1/alice-journal.html
 
 Mission document: https://botscontent.netlify.app/v1/mission_document.html
 
-### Questions:
+
+
+## Questions:
 101. What is the likely IPv4 address of someone from the Po1s0n1vy group scanning imreallynotbatman.com for web application vulnerabilities?
 
 102. What company created the web vulnerability scanner used by Po1s0n1vy? Type the company name.
@@ -51,8 +53,7 @@ Mission document: https://botscontent.netlify.app/v1/mission_document.html
 
 
 
-
-# Starting to Investigate
+## Starting to Investigate
 
 I was searching online for a good methodology on how to start looking into an alert and saw several posts on a simple query that lets you familiarize yourself with the dataset.
 ```
