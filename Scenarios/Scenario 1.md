@@ -143,7 +143,7 @@ Take the query from 7 and remove the stats option and add:
 | table _time form_data
 | reverse
 ```
-You can disregard reverse if you want to just click on time's filter option.
+You can disregard reverse if you want to just click on _time's sort option.
 <p align="center">
     <img src="/Scenarios/Screenshots/s1_firstpw.png">
 </p>
