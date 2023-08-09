@@ -61,7 +61,7 @@ Below, I will also provide a few images that will helps us here. On the left wil
     <table>
 	    <tr>
     	    <td style="padding:10px">
-        	    <img src="/Scenarios/Screenshots/s2_wineventids.png">
+        	    <img src="/Scenarios/Screenshots/s2_winevents.png">
       	    </td>
             <td style="padding:10px">
             	<img src="/Scenarios/Screenshots/s2_sysmonids.png">
