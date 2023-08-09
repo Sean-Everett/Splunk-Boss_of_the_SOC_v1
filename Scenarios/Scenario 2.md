@@ -61,3 +61,15 @@ Below, I will also provide a few images that will helps us here. On the left wil
     <img src="/Scenarios/Screenshots/s2_wineventids.png">
     <img src="/Scenarios/Screenshots/s2_sysmonids.png">
 </p>
+<div id="image-table">
+    <table>
+	    <tr>
+    	    <td style="padding:10px">
+        	    <img src="/Scenarios/Screenshots/s2_wineventids.png">
+      	    </td>
+            <td style="padding:10px">
+            	<img src="/Scenarios/Screenshots/s2_sysmonids.png">
+            </td>
+        </tr>
+    </table>
+</div>
