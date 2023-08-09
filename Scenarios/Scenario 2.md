@@ -8,15 +8,11 @@ Below is the scenario 2 from Splunk's site:
 
 >Alice has seen this before... ransomware. After a quick conversation with Bob, Alice determines that Bob found a USB drive in the parking lot earlier in the day, plugged it into his desktop, and opened up a word document on the USB drive called "Miranda_Tate_unveiled.dotm". With a resigned sigh she begins to dig into the problem...
 
-Splunk server: https://gettingstarted.splunk.show
-
 Ransomware screen shot: https://botscontent.netlify.app/v1/cerber-sshot.png
 
 Ransomware warning: https://botscontent.netlify.app/v1/cerber-sample-voice.mp3
 
 Bots v1 sourcetype summary: https://botscontent.netlify.app/v1/bots_sourcetypes.html
-
-Splunk quick reference guide: https://www.splunk.com/pdfs/solution-guides/splunk-quick-reference-guide.pdf
 
 Alices journal: https://botscontent.netlify.app/v1/alice-journal.html
 
