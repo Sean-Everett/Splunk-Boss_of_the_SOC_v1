@@ -88,4 +88,8 @@ index=botsv1 sourcetype=suricata cerber
 
 
 
-### 3
+### 5
+After some research, Windows Registry uses friendlyname for USB's. Used that to generate a query and looked around in the fields. Data showed MIRANDA_PRI.
+<p align="center">
+    <img src="/Scenarios/Screenshots/s2_usb.png">
+</p>
