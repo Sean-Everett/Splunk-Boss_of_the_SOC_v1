@@ -66,11 +66,11 @@ Now we can get an idea of what sourcetypes we are working with, along with how m
 
 
 ### 1
-I started by using the index="botvs1" and searching for imreallynotbatman.com to get an idea of traffic ad any interesting fields data that stands out. 
+I started by using the index="botvs1" and searching for imreallynotbatman.com to get an idea of traffic and any interesting fields data that stands out. 
 ```
 index="botsv1" imreallynotbatman.com
 ```
-Right of the bat, I see src_ip has three IP's with 40.80.148.42 showing 47,649 hits.
+Right off the bat (see what I did there =P), I see src_ip has three IP's with 40.80.148.42 showing 47,649 hits.
 <p align="center">
     <img src="/Scenarios/Screenshots/s1_src_ip.png">
 </p>
