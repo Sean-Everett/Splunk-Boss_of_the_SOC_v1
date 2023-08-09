@@ -112,7 +112,17 @@ For question 4, I added a few more options to help filter out some more DNS entr
 
 
 ### 5
+To start, I just used vbs in the query and checked the source fields.
+
+
+
+
+### 6
 After some research, Windows Registry uses friendlyname for USB's. Used that to generate a query and looked around in the fields. Data showed MIRANDA_PRI.
 <p align="center">
     <img src="/Scenarios/Screenshots/s2_usb.png">
 </p>
+
+
+
+### 7
