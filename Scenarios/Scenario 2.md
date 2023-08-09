@@ -140,3 +140,14 @@ After some research, Windows Registry uses friendlyname for USB's. Used that to 
 
 
 ### 7
+I had a few options on this one. I decided to search for the destination port of 445(smb) since it's for fileshares. Setting the host and looking for the destination, I was able to find the IP and server name.
+<p align="center">
+    <img src="/Scenarios/Screenshots/s2_smbip.png">
+</p>
+<p align="center">
+    <img src="/Scenarios/Screenshots/s2_smbsvr.png">
+</p>
+
+
+
+### 8
