@@ -57,10 +57,6 @@ Starting out, we know we need to look for "we8105desk" on August 24th 2016. You 
     <img src="/Scenarios/Screenshots/s2_date.png">
 </p>
 Below, I will also provide a few images that will helps us here. On the left will be Windows EventID's and the right will be Sysmon EventID's:
-<p align="center">
-    <img src="/Scenarios/Screenshots/s2_wineventids.png">
-    <img src="/Scenarios/Screenshots/s2_sysmonids.png">
-</p>
 <div id="event ids" align="center">
     <table>
 	    <tr>
@@ -73,3 +69,23 @@ Below, I will also provide a few images that will helps us here. On the left wil
         </tr>
     </table>
 </div>
+I was not certain is users are logging in locally or via RDP so I searched for both 4624 and 3. 4624 was mainly showing a process id. Got what I was looking for using EventID=3.
+<p align="center">
+    <img src="/Scenarios/Screenshots/s2_sourceip.png">
+</p>
+
+
+
+### 2
+The question lets you know to go straight to suricata logs. Added cerber and checked the interesting fields for signature id and was able to use stats.
+```
+index=botsv1 sourcetype=suricata cerber
+| stats count by alert.signature_id
+```
+<p align="center">
+    <img src="/Scenarios/Screenshots/s2_lowsigid.png">
+</p>
+
+
+
+### 3
