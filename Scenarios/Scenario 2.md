@@ -89,7 +89,10 @@ index=botsv1 sourcetype=suricata cerber
 
 
 ### 3
-From my network experience, I know that DNS uses A records and will point something human readable to an IP address. We got the source IP from question 1. Without adding "cerber" or "cerber*", there were 46 results.
+From my network experience, I know that DNS uses A records and will point something human readable to an IP address. We got the source IP from question 1. Without adding "cerber" or "cerber*", there were 46 results. You could also add to the query to disregard well known domains to narrow it down if cerber wasn't part of the dns record.
+```
+NOT (query{}=*.microsoft.com OR query{}=*.google.com OR query{}=*.waynecorpinc.com)
+```
 <p align="center">
     <img src="/Scenarios/Screenshots/s2_fqdn.png">
 </p>
