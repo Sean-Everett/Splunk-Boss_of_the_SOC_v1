@@ -96,6 +96,10 @@ NOT (query{}=*.microsoft.com OR query{}=*.google.com OR query{}=*.waynecorpinc.c
 <p align="center">
     <img src="/Scenarios/Screenshots/s2_fqdn.png">
 </p>
+As you can see, it lowered the results down to 36; which I could take down even farther but just want to show how you can filter out results.
+<p align="center">
+    <img src="/Scenarios/Screenshots/s2_fqdn2.png">
+</p>
 
 
 
