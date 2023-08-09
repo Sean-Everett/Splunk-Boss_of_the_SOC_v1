@@ -96,7 +96,7 @@ NOT (query{}=*.microsoft.com OR query{}=*.google.com OR query{}=*.waynecorpinc.c
 <p align="center">
     <img src="/Scenarios/Screenshots/s2_fqdn.png">
 </p>
-As you can see, it lowered the results down to 36; which I could take down even farther but just want to show how you can filter out results.
+As you can see, it lowered the results down to 36; which I could take down even farther by adding the ".local" but just want to show how you can filter out results.
 <p align="center">
     <img src="/Scenarios/Screenshots/s2_fqdn2.png">
 </p>
@@ -104,7 +104,10 @@ As you can see, it lowered the results down to 36; which I could take down even 
 
 
 ### 4
-
+For question 4, I added a few more options to help filter out some more DNS entries. 
+<p align="center">
+    <img src="/Scenarios/Screenshots/s2_sus.png">
+</p>
 
 
 
