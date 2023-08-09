@@ -149,7 +149,13 @@ This on uses OSINT to find. When we scanned the attacker's IP in VirusTotal, we 
 
 
 ### 11
-hex code
+While still on VirusTotal, go over to the community tab. Knowing that the BotSv1 was in 2016, find the oldest comment that has the hex code. Head over to CyberChef and bake.
+<p align="center">
+    <img src="/Scenarios/Screenshots/s1_hex.png">
+</p>
+<p align="center">
+    <img src="/Scenarios/Screenshots/s1_cyberchef.png">
+</p>
 
 
 
