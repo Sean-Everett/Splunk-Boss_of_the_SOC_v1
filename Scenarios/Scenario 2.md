@@ -88,6 +88,19 @@ index=botsv1 sourcetype=suricata cerber
 
 
 
+### 3
+From my network experience, I know that DNS uses A records and will point something human readable to an IP address. We got the source IP from question 1. Without adding "cerber" or "cerber*", there were 46 results.
+<p align="center">
+    <img src="/Scenarios/Screenshots/s2_fqdn.png">
+</p>
+
+
+
+### 4
+
+
+
+
 ### 5
 After some research, Windows Registry uses friendlyname for USB's. Used that to generate a query and looked around in the fields. Data showed MIRANDA_PRI.
 <p align="center">
