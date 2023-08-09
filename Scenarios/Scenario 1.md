@@ -53,7 +53,7 @@ Mission document: https://botscontent.netlify.app/v1/mission_document.html
 
 
 
-## Starting to Investigate
+## Starting the Investigate
 
 I was searching online for a good methodology on how to start looking into an alert and saw several posts on a simple query that lets you familiarize yourself with the dataset.
 ```
