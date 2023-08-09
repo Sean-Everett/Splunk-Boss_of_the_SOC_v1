@@ -57,9 +57,7 @@ Starting out, we know we need to look for "we8105desk" on August 24th 2016. You 
     <img src="/Scenarios/Screenshots/s2_date.png">
 </p>
 Below, I will also provide a few images that will helps us here. On the left will be Windows EventID's and the right will be Sysmon EventID's:
-<p align="left">
+<p align="center">
     <img src="/Scenarios/Screenshots/s2_wineventids.png">
-</p>
-<p align="right">
     <img src="/Scenarios/Screenshots/s2_sysmonids.png">
 </p>
