@@ -141,7 +141,10 @@ I was having no luck just looking in fields and raw data. I switched between sys
 
 
 ### 10
-ttp
+This on uses OSINT to find. When we scanned the attacker's IP in VirusTotal, we can see the MirandaTateScreensaver.scr.exe file under "Communicating Files (4)". VirusTotal provides us with the SHA256 hash.
+<p align="center">
+    <img src="/Scenarios/Screenshots/s1_sha256.png">
+</p>
 
 
 
