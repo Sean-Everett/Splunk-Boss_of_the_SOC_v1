@@ -14,7 +14,6 @@ I originally completed the lab on https://bots.splunk.com and then set up a virt
 
 <br>
 Click on a scenario to follow along with me.
-<br>
 
 [Scenario 1](/Scenarios/Scenario%201.md)
 
