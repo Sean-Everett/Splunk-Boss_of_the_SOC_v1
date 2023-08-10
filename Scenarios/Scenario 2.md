@@ -175,10 +175,11 @@ The Sysmon Event ID list on question 1 shows Event ID 2 is for file creation. Fr
 
 
 ### 11
-
+Looking at the Fortigate UTM, we can see the messages it gave from Bob's traffic. The single instance that stood out to me was "File is infected". 
 <p align="center">
     <img src="/Scenarios/Screenshots/s2_msg.png">
 </p>
+Isolating that event, we can see the URL along with the file that was downloaded.
 <p align="center">
     <img src="/Scenarios/Screenshots/s2_mhtr.png">
 </p>
