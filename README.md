@@ -12,6 +12,10 @@ I originally completed the lab on https://bots.splunk.com and then set up a virt
     <img src="/Scenarios/Screenshots/bots_logo.png">
 </p>
 
+<br>
+Click on a scenario to follow along with me.
+<br>
+
 [Scenario 1](/Scenarios/Scenario%201.md)
 
 [Scenario 2](/Scenarios/Scenario%202.md)
