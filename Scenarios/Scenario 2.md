@@ -117,9 +117,11 @@ To start, I just used vbs in the query and checked the source fields.
     <img src="/Scenarios/Screenshots/s2_vbs1.png">
 </p>
 I thought this was the way to go but wasted some time. Later, finally looked at the Sysmon logs with the following:
+
 ```
 index=botsv1 source=WinEventLog:Microsoft-Windows-Sysmon/Operational host=we8105desk vbs
 ```
+
 I can see a few things that stand out.
 <p align="center">
     <img src="/Scenarios/Screenshots/s2_vbscl.png">
