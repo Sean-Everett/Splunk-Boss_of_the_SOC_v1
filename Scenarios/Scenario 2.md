@@ -155,3 +155,11 @@ I wasted a bit of time on this one. I searched for the host being "we9041srv" an
 <p align="center">
     <img src="/Scenarios/Screenshots/s2_pdfs.png">
 </p>
+
+
+
+### 9
+We know that Bob is using "we8105desk" and that script ran using the command line. If we look back at question 1, I shared an image of Event ID's and 1 is "Process Create". Sort by time so we have the initial process and parent ID's.
+<p align="center">
+    <img src="/Scenarios/Screenshots/s2_pid.png">
+</p>
