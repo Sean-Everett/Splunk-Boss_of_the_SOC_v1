@@ -166,6 +166,11 @@ We know that Bob is using "we8105desk" and that script ran using the command lin
 
 
 
+### 10
+The Sysmon Event ID list on question 1 shows Event ID 2 is for file creation.
+
+
+
 ### 11
 
 <p align="center">
