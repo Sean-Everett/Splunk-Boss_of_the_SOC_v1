@@ -151,3 +151,7 @@ I had a few options on this one. I decided to search for the destination port of
 
 
 ### 8
+I wasted a bit of time on this one. I searched for the host being "we9041srv" and "pdf". It had some hits but being able to figure out how many files were encrypted was tricky. There wasn't anything that was out right saying encrypted. Finally saw accesses and files were deleted. Poking around more, I found relative target name.
+<p align="center">
+    <img src="/Scenarios/Screenshots/s2_pdfs.png">
+</p>
