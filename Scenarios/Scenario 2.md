@@ -167,7 +167,10 @@ We know that Bob is using "we8105desk" and that script ran using the command lin
 
 
 ### 10
-The Sysmon Event ID list on question 1 shows Event ID 2 is for file creation.
+The Sysmon Event ID list on question 1 shows Event ID 2 is for file creation. From the question, we are looking for .txt files in Bob's Windows profile. In the fields we can see TargetFileName. We can break that down into how many text files are seen.
+<p align="center">
+    <img src="/Scenarios/Screenshots/s2_txt.png">
+</p>
 
 
 
