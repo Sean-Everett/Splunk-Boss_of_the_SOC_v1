@@ -163,3 +163,19 @@ We know that Bob is using "we8105desk" and that script ran using the command lin
 <p align="center">
     <img src="/Scenarios/Screenshots/s2_pid.png">
 </p>
+
+
+
+### 11
+
+<p align="center">
+    <img src="/Scenarios/Screenshots/s2_msg.png">
+</p>
+<p align="center">
+    <img src="/Scenarios/Screenshots/s2_mhtr.png">
+</p>
+
+
+
+### 12
+From my studies of Comptia Security+, we know that you can hide data in an image without ruining the image. This process is called Steganography.
